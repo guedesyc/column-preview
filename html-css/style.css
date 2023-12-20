@@ -1,0 +1,90 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+body{
+   background-color: white;
+   display: relative;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+ main > div.orange{
+    background-color: hsl(31, 77%, 52%);
+
+}
+
+ 
+div.orange > h1{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', Arial, Helvetica, sans-serif;
+}
+
+
+div.orange > h2{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', Arial, Helvetica, sans-serif;
+
+}
+
+div.orange > p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', Arial, Helvetica, sans-serif;
+
+}
+
+
+ main > div.cyan{
+    background-color: hsl(184, 100%, 22%);
+
+}
+
+div.cyan > h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', Arial, Helvetica, sans-serif;
+
+}
+
+div.cyan > h2{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', Arial, Helvetica, sans-serif;
+
+}
+
+div.cyan > p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', Arial, Helvetica, sans-serif;
+
+}
+
+main > div.darkcyan{
+    background-color: hsl(179, 100%, 13%);
+
+}
+
+div.darkcyan > h1{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', Arial, Helvetica, sans-serif;
+
+}
+
+div.darkcyan > h2{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', Arial, Helvetica, sans-serif;
+
+}
+
+div.darkcyan > p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', Arial, Helvetica, sans-serif;
+
+}
