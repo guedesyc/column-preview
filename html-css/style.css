@@ -2,89 +2,95 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
    background-color: white;
-   display: relative;
 }
 
-main{
+section{
     display: flex;
-    flex-direction: row;
-    
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+    height: 100vh;
 }
 
- main > div.orange{
+.orange{
     background-color: hsl(31, 77%, 52%);
+    display: flex;
+    flex-direction: column;
+    padding:30px 40px;
 
+    border-radius: 15px 0px 0px 15px;
 }
 
- 
-div.orange > h1{
-    color: hsl(0, 0%, 95%);
-    font-family: 'Big Shoulders Display', Arial, Helvetica, sans-serif;
+.orange > h2{
+    background-color: white;
+    border-radius: 25px;
+    padding: 15px;
+    text-align: center;
+    color:hsl(31, 77%, 52%); ;
+    font-family: 'Lexend Deca', Arial, Helvetica, sans-serif; 
+    font-size: 1rem;
+    margin-right: 40px;
 }
 
-
-div.orange > h2{
-    color: hsl(0, 0%, 95%);
-    font-family: 'Lexend Deca', Arial, Helvetica, sans-serif;
-
-}
-
-div.orange > p{
-    color: hsla(0, 0%, 100%, 0.75);
-    font-family: 'Lexend Deca', Arial, Helvetica, sans-serif;
-
-}
-
-
- main > div.cyan{
+.cyan{
     background-color: hsl(184, 100%, 22%);
+    display: flex;
+    flex-direction: column;
+    padding:30px 40px;
 
 }
 
-div.cyan > h1 {
-    color: hsl(0, 0%, 95%);
-    font-family: 'Big Shoulders Display', Arial, Helvetica, sans-serif;
-
+.cyan > h2{
+    background-color: white;
+    border-radius: 25px;
+    padding: 15px;
+    text-align: center;
+    color:hsl(184, 100%, 22%);
+    font-family: 'Lexend Deca', Arial, Helvetica, sans-serif; 
+    font-size: 1rem;
+    margin-right: 40px;
 }
 
-div.cyan > h2{
-    color: hsl(0, 0%, 95%);
-    font-family: 'Lexend Deca', Arial, Helvetica, sans-serif;
-
-}
-
-div.cyan > p{
-    color: hsla(0, 0%, 100%, 0.75);
-    font-family: 'Lexend Deca', Arial, Helvetica, sans-serif;
-
-}
-
-main > div.darkcyan{
+.darkcyan{
     background-color: hsl(179, 100%, 13%);
-
+    display: flex;
+    flex-direction: column;
+    padding:30px 40px;
+    border-radius: 0px 15px 15px 0px;
 }
 
-div.darkcyan > h1{
-    color: hsl(0, 0%, 95%);
+.darkcyan > h2{
+    background-color: white;
+    border-radius: 25px;
+    padding: 15px;
+    text-align: center;
+    color: hsl(179, 100%, 13%);
+    font-family: 'Lexend Deca', Arial, Helvetica, sans-serif; 
+    font-size: 1rem;
+    margin-right: 40px;
+}
+
+.imagem{
+   width: 80px;
+   
+}
+
+.titulo{
     font-family: 'Big Shoulders Display', Arial, Helvetica, sans-serif;
-
-}
-
-div.darkcyan > h2{
     color: hsl(0, 0%, 95%);
-    font-family: 'Lexend Deca', Arial, Helvetica, sans-serif;
-
+    font-size: 2.5rem;
+    margin: 70px 0px 50px 0px;
 }
 
-div.darkcyan > p{
-    color: hsla(0, 0%, 100%, 0.75);
+.paragraph{
     font-family: 'Lexend Deca', Arial, Helvetica, sans-serif;
-
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 0px 0px 100px 0px;
 }
